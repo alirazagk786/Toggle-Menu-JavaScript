@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    /* position: relative; */
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 999999;
+}
+#header_search_div{
+    display: none;
+    width: 27%;
+    height: 66%;
+    background-color: #286cc1;
+    left: 71.5%;
+    position: absolute;
+    top: 74%;
+    padding: 1rem;
+    
+}
+.header_search_input{
+    width: 73%;
+    /* margin: auto; */
+    /* display: flex; */
+    /* align-items: center; */
+    padding: 0.9rem;
+    font-size: 2rem;
+}
+.header_search_btn{
+    padding: 0.9rem;
+    font-size: 2rem;
+    color: white;
+    background-color: #286cc1;
+    border: 1px solid white;
+    width: 25%;
+
+}
+#main_header{
+    display: flex;
+}
+header .header_div{
+ width: 60%;
+height: auto; 
+}
+
+header .header_left #logo_img{
+    width: 10%;
+    /* height: 23%; */
+    /* padding: 1.5%; */
+    
+}
+header .header_left #btn_header_menu{
+    width: 8%;
+    height: 111px;
+    color: white;
+    background-color: #286cc1;
+    margin-right: 2%;
+}
+header .header_left #btn_header_menu i{
+    font-size: 4rem;
+}
+header .header_left #btn_header_menu i p{
+    font-size: 1.2rem;
+}
+header .header_left {
+    display: flex;
+    align-items: center;
+}
+header .header_left .upper_p{
+    margin: 0;
+    font-size: 2rem;
+
+}
+header .header_left .lower_p{
+    font-style: italic;
+    color: lightgray;
+    font-size: 1.6rem;
+}
+header .header_left .text_header{
+    margin: 1% 0 0 2%;
+}
+.header_right{
+    width: 40%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+#search_button{
+    width: 9%;
+    height: 50%;
+    font-size: 3rem;
+    background-color: white;
+    border: 1px solid #286cc1;
+
+}
+.header_right .search_button i{
+    color: #286cc1;
+
+}
+.header_right a{
+    color: darkslategrey;
+}
+.link{
+    padding: 0px 25px;
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+}
+#navbar_div{
+    width: 100%;
+    color:#286cc1;
+    display: none;
+    margin-top: 112px;
+}
+.nav_cards_main{
+    display: flex;
+}
+.nav_cards_main2{
+
+}
+.navbar_card{
+    width:25%;
+    height: auto;
+    /* background-color: #286cc1; */
+}
+.navbar_link{
+    display: flex;
+    FLEX-DIRECTION: column;
+    /* align-items: center; */
+    padding: 5% 10%;
+}
+.navbar_link a{
+    padding-bottom: 6px;
+    color: gray;
+    font-size: 15px;
+}
+.link1{
+    align-items: center;
+}
+.link1 a{
+    color: black;
+    font-weight: 700;
+    font-size: 1.6rem;
+
+}
+.link1 hr.new{
+    /* border: 1px solid gray; */
+    width: 100%;
+
+}
+.navbar_link .navbar_headings{
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 700;
+    padding-top: 25px;
+
+}
+.section1{
+    background-color:#f3f6f9;
+    width: 27%;
+}
+.section2_hr{
+    width: 15%;
+    border: 2% solid black;
+    border: 2px solid darkgoldenrod;
+    padding: 0px;
+    margin: 10px 0px;
+}
+.bg_image{
+    background-image: url("./SC_State_House_at_evening.jpg");
+    width: 100%;
+    height: 150vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -9999;
+
+}
+.bg_content{
+    top: 17%;
+    position: absolute;
+    width: 55%;
+    /* height: 50%; */
+    left: 23%;
+    text-align: center;
+
+}
+.bg_content h1{
+    color: white;
+    line-height: 37px;
+    padding-bottom: 3%;
+    
+}
+.bg_content_input{
+    width: 65%;
+    height: hei;
+    height: 45px;
+    font-size: 2rem;
+    padding: 1rem;
+
+}
+.bg_content_input:focus{
+    border :2px solid blue;
+}
+.bg_content_btn{
+    border: none;
+    height: 45px;
+    width: 14%;
+    background-color: #286cc1;
+    font-size: 1.9rem;
+    color: white;
+    font-weight: 700;
+
+}
